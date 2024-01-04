@@ -1,0 +1,54 @@
+#register h2 {
+    font-size: 30px;
+}
+
+.account-form {
+    display: flex;
+    background-color: rgba(217, 217, 217, 1);
+    width: 60%;
+    height: 85px;
+    text-align: center;
+    margin: 30px auto; /* コンテナを垂直方向に中央揃え */
+    padding: 0 30px; /* 両側に余白を追加 */
+}
+
+.account-form .circle {
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    border-radius: 50%;
+    margin: auto 0;
+}
+
+.circle img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.account-form h4 {
+    color: black;
+    margin: auto 0;
+    font-size: 25px;
+    padding-left: 30px; /* 余白を調整 */
+}
+
+.delete {
+    margin: auto;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    /* 小さい画面に対するスタイルの調整 */
+    .account-form {
+        width: 80%; /* 小さい画面に対して幅を調整 */
+        margin-left: auto; /* コンテナを水平方向に中央揃え */
+        margin-right: auto;
+    }
+
+    .account-form h4 {
+        font-size: 20px; /* 小さい画面に対してフォントサイズを調整 */
+    }
+}
+
+/* 他の画面サイズに対する必要に応じて、追加のメディアクエリを追加してください */

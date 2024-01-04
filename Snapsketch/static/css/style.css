@@ -1,0 +1,70 @@
+html{
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-family: "serif";
+    margin: 0;
+    background-image: url(../images/main.png);
+}
+/*ここからヘッダー*/
+header{
+    margin: auto;
+    background-image: url(../images/header.jpg);
+    height: 120px;
+}
+
+header #logo{
+    font-size: 50px;
+    color: #ffffff;
+    padding: 30px;
+}
+/*ここまでがヘッダー*/
+/*ここからメイン*/
+main{
+    text-align: center;
+}
+
+main #box{
+    margin: auto;
+    width: 60%;
+}
+
+#side{
+    /* margin-top: 150px; */
+    margin-top: 10%;
+    /* margin-right: 150px; */
+    margin-right: 10%;
+    float: right;
+    font-size: 30px;
+    list-style: none;
+}
+
+.side-list {
+    text-decoration: none;
+    color: #000;
+    /* width: 5%; */
+ }  
+
+
+
+.wrapper{
+    box-sizing: border-box;
+}
+/*ここまでがメイン*/
+/*ここからフッター*/
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/footer.png);
+    text-align: center;
+  }
+
+footer  small{
+    color: #ffffff;
+}
+

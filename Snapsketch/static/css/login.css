@@ -1,0 +1,22 @@
+body {
+    background-color: #A5A0CF; /* 背景色 */
+    color:#000000;
+}
+.container {
+    margin-top: 100px;
+}
+.form-login {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-login h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-login button[type="submit"] {
+    width: 100%;
+}
